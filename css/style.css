@@ -1,0 +1,48 @@
+/*
+CONFIGURACIÓN PARA MODIFICAR LA ALTURA DEL CARRUSEL SIN QUE PERJUDIQUE EN LAS IMAGENES
+*/
+.carousel-item {
+    width: 100%; /* Establece el ancho del carrusel */
+    height: 700px; /* Establece la altura del carrusel */
+}
+
+.carousel-item img {
+    width: 100%; /* Establece el ancho de las imágenes dentro del carrusel */
+    height: 100%; /* Establece la altura de las imágenes dentro del carrusel */
+    object-fit: cover; /* Hace que la imagen ocupe todo el espacio del contenedor sin deformarse */
+}
+
+
+/*
+CONFIGURACIÓN DEL TITULO DE LAS IMAGENES DEL CARRUSEL
+*/
+.carousel-titulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 10px; /* Elimina el margen inferior por defecto del jumbotron */
+    height: 200px; /* Altura del viewport */
+    display: flex; /* Utilizando flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
+
+.jumbotron1 {
+    margin-bottom: 0; /* Elimina el margen inferior por defecto del jumbotron */
+    height: 200px; /* Altura del viewport */
+    display: flex; /* Utilizando flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
